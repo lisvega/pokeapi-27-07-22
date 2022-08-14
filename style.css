@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+    background: -webkit-linear-gradient(90deg, rgb(248, 29, 29) 10%, orange 90%);
+    background: -moz-linear-gradient(90deg, rgb(248, 29, 29) 10%, orange 90%);
+    background: -ms-linear-gradient(90deg, rgb(248, 29, 29) 10%, orange 90%);
+    background: -o-linear-gradient(90deg, rgb(248, 29, 29) 10%, orange 90%);
+    background: linear-gradient(90deg, rgb(248, 29, 29) 10%, orange 90%);
+}
+
+/*este es el del id que esta ya con el html*/
+#containerpokeapi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+
+
+
+}
+
+/* esto es para el header para darle color al fondo*/
+header {
+
+    background: rgb(63, 251, 229);
+    background: radial-gradient(circle, rgba(63, 251, 229, 1) 0%, rgba(70, 108, 252, 1) 100%);
+}
+
+
+/*esto lo use para darle el tamaño que le puse a la imagen del header*/
+header img {
+    width: 80%;
+    padding: 30px;
+}
+
+
+/* esto es para centrar el contenedor de la imagen del header   */
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* esta clase esta en el js y se la di para */
+.pokemon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* para centrar los nombres  */
+h3 {
+    color: blanchedalmond;
+    display: flex;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+
+/*para centrar las p */
+p {
+    font-size: 15px;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+/*para darle el tamaño a la imagen primero pongo el contenerdor donde esta, y luego img*/
+.pokemon-container img {
+    width: 150px;
+}
+
+
+/*es es contenedor que contiene la caja completa de la img, p, h3 para centrar todas imagenes*/
+.containerSingle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border: solid black 2px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: rgba(240, 255, 255, 0.333);
+}
+
+
+/*esta clase es para darle color a los p del peso*/
+.peso {
+    color: rgb(193, 25, 25);
+}
